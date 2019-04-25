@@ -11,7 +11,7 @@ public class Main {
 
 
         System.out.println(revnumber);
-        while(revnumber.length() > 10 && countChar(revnumber, '8') != 0) {
+        while(revnumber.length() > 10 && countChar(revnumber, '8') != 0 && revnumber.lastIndexOf('8') > 9) {
 
             int pos = 0;
             if(countChar(revnumber, '8') == 2 && revnumber.lastIndexOf('8') >9) {
